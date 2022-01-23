@@ -1,0 +1,14 @@
+.foo {
+    background: url("../../images/bigtree.jpg") no-repeat center center; 
+    background-size: cover; 
+    height:115vh;
+}
+
+.technologies {
+    justify-content:"center";
+    align-self:"center";
+    background-color:"red";
+    color:"blue;"
+}
+
+

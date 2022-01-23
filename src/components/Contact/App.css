@@ -1,0 +1,55 @@
+.App {
+    background: url("../../images/cloudy.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100vh;
+}
+
+.App-content {
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 5%;
+   
+}
+
+@media (min-width: 650px ) {
+    .App {
+        background-position: center center;
+    }
+
+    .App-content {
+        align-items: flex-end;
+        justify-content: center;
+    }
+}
+.Contact { 
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 50%;
+    padding-top: 20%;
+    font-size: 50px
+}
+ 
+
+.textInputs::placeholder {
+    color:#333333;
+}
+
+.textInputs {
+    width:45%;
+    background-color:rgba(7, 0, 0, 0); 
+    padding:10px;
+    font-weight: 600;
+    font-size:13px;
+    border-top-width:0px;
+    border-left-width: 0px;
+    border-right-width:0px
+
+}
